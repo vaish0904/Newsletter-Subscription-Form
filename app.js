@@ -30,7 +30,7 @@ const jsonData=JSON.stringify(data);
 const url="https://us6.api.mailchimp.com/3.0/lists/ff8cbb45e1";
 const options={
   method:"POST",
-  auth:"Vaishnavi1:a214d0bc9a6a88e2f207d828b9c0e5d9-us6"
+  auth:"Vaishnavi1:a214d0bc9a6a88e2f207d828b9c0e5d9-us6"  // disabled API key
 };
 const request = https.request(url,options,function(response){
   if(response.statusCode==200){
